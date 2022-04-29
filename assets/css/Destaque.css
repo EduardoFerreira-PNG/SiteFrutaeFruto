@@ -1,0 +1,41 @@
+.destaque__principal{
+    position: relative;
+}
+
+.titulo__destaque{
+    color: #fdfdfd;
+    font-family: Pacifico, 'cursive';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 5.0625rem;
+}
+
+.imagem__principal{
+    width: 100%;
+}
+@media screen and (min-width: 0px){
+    .titulo__destaque{
+        
+        font-size: 3rem;
+    } 
+
+    .imagem__principal{
+        height: 300px;
+    }
+
+}
+@media screen and (min-width: 768px){
+
+    .titulo__destaque{
+        font-size: 5.0625rem;
+    }
+    .imagem__principal{
+        height: 80vh;
+    }
+
+}

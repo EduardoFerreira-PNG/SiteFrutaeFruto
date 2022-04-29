@@ -1,0 +1,51 @@
+.sobre{
+    padding: 2rem;
+   text-align: center;
+}
+
+.titulo__sobre{
+    display: inline-block;
+    color: #8D0606;
+    text-align: center;
+    font-family: Pacifico, 'cursive';
+    font-size: 3rem;
+    border-bottom: 1px solid ;
+}
+
+.descrição__sobre{
+    padding: 2rem;
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 0px){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+
+    .titulo__sobre{
+        font-size: 2rem;
+        border: none;
+    }
+    .descrição__sobre{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre{
+        padding: 2.5rem;
+       
+    }
+    .titulo__sobre{
+        font-size: 3rem;
+        border-bottom: 1px solid ;
+    }
+    .descrição__sobre{
+        padding: 2rem;
+        color: #595959;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
